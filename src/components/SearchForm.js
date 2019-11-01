@@ -12,7 +12,7 @@ function SearchForm() {
           name="search"
         />
         <button
-          className="search_submit transition_animation hover-color"
+          className="search_submit transition_delay hover-color btn"
           type="button"
           value="Search"
         >

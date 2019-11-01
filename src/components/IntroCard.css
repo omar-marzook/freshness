@@ -1,0 +1,14 @@
+.card_img {
+  width: 300px;
+  height: 160px;
+  margin-bottom: 32px;
+}
+
+.card_title {
+  color: var(--dark-text);
+  font-weight: 300;
+}
+
+.card_p {
+  margin: 25px 0 15px;
+}

@@ -1,0 +1,53 @@
+.hero_silders-img {
+  display: block;
+  float: left;
+  margin-right: 40px;
+  width: 398px;
+  height: 317px;
+}
+
+.hero_silders-title {
+  font-size: 42px;
+  font-weight: 500;
+  color: var(--dark-text);
+}
+
+.hero_silders-btn {
+  font-size: 16px;
+}
+
+.hero_silders-title,
+.hero_silders-p,
+.hero_silders-btn {
+  margin-top: 25px;
+}
+
+.slick-dots {
+  text-align: right;
+}
+
+.slick-dots li,
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  content: '';
+  color: transparent;
+  border: 3px solid var(--primary-color);
+  background: var(--primary-color);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  border: 3px solid var(--primary-color);
+  background: var(--theme-color);
+  opacity: 1;
+}

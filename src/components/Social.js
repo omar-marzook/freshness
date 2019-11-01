@@ -11,27 +11,27 @@ function Social() {
     <nav className="social">
       <ul>
         <li className="social_icons">
-          <a class="social_Icons-link transition_animation" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="social_Icons-link transition_delay" href="#" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="Linkedin link."/>
           </a>
         </li>
         <li className="social_icons">
-          <a class="social_Icons-link transition_animation" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="social_Icons-link transition_delay" href="#" target="_blank" rel="noopener noreferrer">
             <img src={twitter} alt="twitter link."/>
           </a>
         </li>
         <li className="social_icons">
-          <a class="social_Icons-link transition_animation" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="social_Icons-link transition_delay" href="#" target="_blank" rel="noopener noreferrer">
             <img src={pinterest} alt="pinterest link."/>
           </a>
         </li>
         <li className="social_icons">
-          <a class="social_Icons-link transition_animation" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="social_Icons-link transition_delay" href="#" target="_blank" rel="noopener noreferrer">
             <img src={google} alt="google link."/>
           </a>
         </li>
         <li className="social_icons">
-          <a class="social_Icons-link transition_animation" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="social_Icons-link transition_delay" href="#" target="_blank" rel="noopener noreferrer">
             <img src={rss} alt="rss link."/>
           </a>
         </li>

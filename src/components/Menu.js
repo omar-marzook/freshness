@@ -6,32 +6,32 @@ function Menu() {
     <nav className="menu">
       <ul>
         <li className="menu_items active">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             home
           </a>
         </li>
         <li className="menu_items">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             style demo
           </a>
         </li>
         <li className="menu_items">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             full width
           </a>
         </li>
         <li className="menu_items">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             dropdown
           </a>
         </li>
         <li className="menu_items">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             portfolio
           </a>
         </li>
         <li className="menu_items">
-          <a href="#" className="menu_items-links transition_animation">
+          <a href="#" className="menu_items-links transition_delay">
             gallery
           </a>
         </li>

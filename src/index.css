@@ -22,6 +22,7 @@ body {
   font-family: Georgia, Times, Times New Roman, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.618;
 }
 
 *,
@@ -38,11 +39,17 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
   list-style: none;
   padding: 0;
+}
+
+p {
+  color: var(--gray-text);
+  font-size: 14px;
 }
 
 .container {
@@ -55,12 +62,30 @@ ul {
   justify-content: space-between;
 }
 
-.transition_animation {
+.transition_delay {
   transition: all 0.3s ease;
 }
 
 .hover-color:hover,
 .hover-color:focus {
+  background: var(--orange-color);
+}
+
+.btn {
+  border: 0;
+  color: var(--theme-color);
+  border-radius: 9px;
+  background: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  /* height: 32px; */
+  font-size: 13px;
+  padding: 10px;
+}
+
+.btn:hover,
+.btn:focus {
   background: var(--orange-color);
 }
 
@@ -98,3 +123,25 @@ ul {
 }
 
 /***** End Header *****/
+
+/***** Slider *****/
+.silder_section {
+  height: 500px;
+  padding: 50px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/***** End Slider *****/
+
+/***** Intro *****/
+.intro_section {
+  padding: 50px 20px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+
+}
