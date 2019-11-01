@@ -1,0 +1,21 @@
+.menu_items {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu_items:first-of-type {
+  margin-left: 0;
+}
+
+.menu_items-links {
+  color: var(--gray-text);
+}
+
+.menu_items-links:hover,
+.menu_items-links:focus {
+  color: var(--primary-color);
+}
+

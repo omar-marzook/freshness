@@ -1,0 +1,27 @@
+.social_icons {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social_icons:first-of-type {
+  margin: 0;
+}
+
+.social_Icons-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--social-bg-color);
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.social_Icons-link:hover,
+.social_Icons-link:focus {
+  background: var(--orange-color);
+}
+
+.social_Icons-link img {
+  width: 15px;
+}
