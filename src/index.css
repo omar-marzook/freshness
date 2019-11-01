@@ -8,6 +8,7 @@
   --gray-text: #999;
   --search-bg: #333;
   --border-color: #e2e2e2;
+  --outline-color: #d8d8d8;
   --footer-bg: #252525;
   --bottom-footer-bg: #1a1a1a;
   --footer-input-bg: #2c2c2c;
@@ -145,3 +146,36 @@ p {
   width: 300px;
 
 }
+
+/***** End Intro *****/
+
+/***** Shout *****/
+.shout {
+  padding: 50px 0;
+}
+
+.shout-text {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--dark-text);
+  width: 80%;
+  margin: auto;
+}
+
+/***** End Shout *****/
+
+/***** Services *****/
+.services_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.services_card {
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+/***** End Services *****/

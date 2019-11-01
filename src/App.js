@@ -5,6 +5,7 @@ import SearchForm from "./components/SearchForm.js";
 import Menu from "./components/Menu.js";
 import HeroSlider from "./components/HeroSlider.js";
 import IntroCard from "./components/IntroCard.js";
+import ServicesCard from "./components/ServicesCard.js";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </div>
         </div>
       </header>
+
       <section className="container silder_section">
         <HeroSlider />
       </section>
@@ -29,6 +31,22 @@ function App() {
         <IntroCard />
         <IntroCard />
         <IntroCard />
+      </section>
+
+      <article className="container shout">
+        <h3 className="shout-text">
+          “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+          diam erat. In fringilla massa ut nisi ullamcorper pellentesque „
+        </h3>
+      </article>
+
+      <section className="container services_section">
+        <ServicesCard />
+        <ServicesCard />
+        <ServicesCard />
+        <ServicesCard />
+        <ServicesCard />
+        <ServicesCard />
       </section>
     </main>
   );
