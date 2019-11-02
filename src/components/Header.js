@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 import logo from "../assets/logo.svg";
 import Social from "./HeaderParties/Social.js";
 import SearchForm from "./HeaderParties/SearchForm.js";
@@ -8,11 +9,11 @@ function Header() {
   return (
       <header className="header">
         <div className="container">
-          <div className="row">
+          <div className="header_row">
             <Social />
             <SearchForm />
           </div>
-          <div className="row margin-top">
+          <div className="header_row">
             <img src={logo} className="header_logo" alt="logo" />
             <Menu />
           </div>

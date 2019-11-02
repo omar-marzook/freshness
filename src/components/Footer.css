@@ -9,13 +9,14 @@
 .blog_quote,
 .newsletter {
   width: 225px;
+  padding: 20px 0;
 }
 
 .footer_parties h4 {
   font-size: 20px;
   color: var(--theme-color);
   margin-bottom: 30px;
-  text-decoration: capitalize;
+  text-transform: capitalize;
 }
 
 .footer_parties p {
@@ -34,20 +35,20 @@
 .quick_links-items {
   margin-bottom: 10px;
   border-bottom: 1px solid var(--footer-input-bg);
-  text-decoration: capitalize;
+  text-transform: capitalize;
 }
 
 .blog_quote h5 {
   font-size: 13px;
   color: var(--gray-text);
-  text-decoration: capitalize;
+  text-transform: capitalize;
   margin-bottom: 7px;
 }
 
 .blog_quote h6 {
   font-size: 11px;
   color: var(--gray-text);
-  text-decoration: capitalize;
+  text-transform: capitalize;
   margin-bottom: 12px;
   font-weight: 500;
 }

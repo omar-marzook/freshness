@@ -3,8 +3,8 @@ import "./SearchForm.css";
 
 function SearchForm() {
   return (
-    <form className="search-form">
-      <label class="search-label">
+    <form className="search_form">
+      <label class="search_label">
         <input
           className="search_input"
           type="text"
