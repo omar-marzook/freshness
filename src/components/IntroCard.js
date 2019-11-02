@@ -4,7 +4,7 @@ import placeholder from "../assets/images/300x160.jpg";
 
 function IntroCard() {
   return (
-    <article className="card">
+    <article className="card" tabIndex="0">
       <img className="card_img" src={placeholder} alt="placeholder image." />
       <h3 className="card_title">YOUR TITLE HERE</h3>
       <p className="card_p">

@@ -4,7 +4,7 @@ import placeholder from "../assets/images/80x80.jpg";
 
 function ServicesCard() {
   return (
-    <article className="services_card">
+    <article className="services_card" tabIndex="0">
       <img
         className="services_card-img"
         src={placeholder}

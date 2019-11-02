@@ -2,7 +2,7 @@ import React from "react";
 
 function QuickLinks() {
   return (
-    <nav className="quick_links">
+    <nav className="quick_links" tabIndex="0">
       <h4>Quick Links</h4>
       <ul>
         <li className="quick_links-items">

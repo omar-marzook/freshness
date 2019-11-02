@@ -8,7 +8,7 @@ import "./Social.css";
 
 function Social() {
   return (
-    <nav className="social">
+    <nav className="social" aria-label="Social Navigation">
       <ul>
         <li className="social_icons">
           <a

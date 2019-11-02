@@ -2,7 +2,7 @@ import React from "react";
 
 function BlogQuote() {
   return (
-    <section className="blog_quote">
+    <section className="blog_quote" tabIndex="0">
       <h4>From The Blog</h4>
       <h5>Blog Posy Title</h5>
       <h6>Posted by Admin on 00.00.0000</h6>

@@ -3,7 +3,7 @@ import "./Menu.css";
 
 function Menu() {
   return (
-    <nav className="menu">
+    <nav className="menu" aria-label="Primary">
       <ul>
         <li className="menu_items active">
           <a href="#" className="menu_items-links transition_delay">

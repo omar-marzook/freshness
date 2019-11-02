@@ -21,7 +21,7 @@ function App() {
         <IntroCard />
       </section>
 
-      <article className="container shout">
+      <article className="container shout" tabIndex="0">
         <h3 className="shout-text">
           “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
           diam erat. In fringilla massa ut nisi ullamcorper pellentesque „
@@ -37,13 +37,13 @@ function App() {
         <ServicesCard />
       </section>
 
-      <footer className="footer">
+      <footer className="footer" role="contentinfo" tabIndex="0">
         <div className="container">
           <Footer />
         </div>
       </footer>
 
-      <footer className="copyrights">
+      <footer className="copyrights" tabIndex="0">
         <div className="container">
           <Copyrights />
         </div>
