@@ -14,6 +14,13 @@
   --footer-input-bg: #2c2c2c;
 }
 
+:root[theme='dark'] {
+  --theme-color: #1a1a1a;
+  --dark-text: #fff;
+  --search-bg: #ccc;
+  --footer-input-bg: #d3d3d3;
+}
+
 html,
 body {
   -webkit-box-sizing: border-box;
@@ -21,6 +28,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   line-height: 1.618;
+  background: var(--theme-color);
 }
 
 *,
@@ -86,7 +94,7 @@ p {
 }
 
 /***** Slider *****/
-.silder_section {
+.slider_section {
   height: 500px;
   padding: 50px 20px;
   border-bottom: 1px solid var(--border-color);
@@ -164,7 +172,7 @@ p {
 /***** End Footer *****/
 
 @media only screen and (max-width: 730px) {
-  .silder_section {
+  .slider_section {
     height: auto;
   }
 }
@@ -188,4 +196,93 @@ p {
   .services_card {
     width: 280px;
   }
+}
+
+
+/***** CSS styling for our switch *****/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switcher {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switcher:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: var(--search-bg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked+.switcher {
+  background-color: var(--theme-color);
+}
+
+input:focus+.switcher {
+  box-shadow: 0 0 1px var(--theme-color);
+}
+
+input:checked+.switcher:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.switcher.round {
+  border-radius: 25px;
+}
+
+.switcher.round:before {
+  border-radius: 50%;
+}
+
+
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+  transition: all 500ms !important;
+  transition-delay: 0 !important;
+}
+
+.theme_color {
+  background: var(--search-bg);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  opacity: 1;
+  padding: 10px;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.theme_color p {
+  font-size: 10px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: var(--theme-color);
 }

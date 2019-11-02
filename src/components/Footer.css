@@ -14,7 +14,7 @@
 
 .footer_parties h4 {
   font-size: 20px;
-  color: var(--theme-color);
+  color: #fff;
   margin-bottom: 30px;
   text-transform: capitalize;
 }
