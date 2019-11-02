@@ -2,7 +2,6 @@
   --primary-color: #3bafbe;
   --orange-color: #ee802f;
   --theme-color: #fff;
-  /* --dark-bg-color: #121212; */
   --social-bg-color: #1f1f1f;
   --dark-text: #4a4a4a;
   --gray-text: #999;
@@ -23,8 +22,6 @@
 
 html,
 body {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   line-height: 1.618;
@@ -34,8 +31,6 @@ body {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
   box-sizing: inherit;
   margin: 0;
   font-family: Georgia, Times, Times New Roman, serif;
@@ -64,6 +59,7 @@ p {
 }
 
 .transition_delay {
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -104,8 +100,13 @@ p {
 
 /***** Intro *****/
 .intro_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 30px 20px;
   border-bottom: 1px solid var(--border-color);
@@ -136,8 +137,13 @@ p {
 
 /***** Services *****/
 .services_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 20px;
 }
@@ -181,6 +187,8 @@ p {
 
   .intro_section,
   .services_section {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -209,6 +217,7 @@ p {
 
 .switch input {
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   width: 0;
   height: 0;
 }
@@ -247,7 +256,6 @@ input:focus+.switcher {
 
 input:checked+.switcher:before {
   -webkit-transform: translateX(22px);
-  -ms-transform: translateX(22px);
   transform: translateX(22px);
 }
 
@@ -264,7 +272,9 @@ html.theme-transition,
 html.theme-transition *,
 html.theme-transition *:before,
 html.theme-transition *:after {
+  -webkit-transition: all 500ms !important;
   transition: all 500ms !important;
+  -webkit-transition-delay: 0 !important;
   transition-delay: 0 !important;
 }
 
@@ -274,7 +284,6 @@ html.theme-transition *:after {
   bottom: 20px;
   right: 20px;
   z-index: 99;
-  opacity: 1;
   padding: 10px;
   border-radius: 9px;
   text-align: center;

@@ -1,6 +1,11 @@
 .footer_parties {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -60,7 +65,7 @@
 .newsletter_input,
 .newsletter_submit {
   border: 0;
-  color: var(--gray-text);
+  color: var(--theme-color);
   border-radius: 9px;
 }
 
@@ -75,6 +80,27 @@
   height: 32px;
   display: block;
   margin-bottom: 10px
+}
+
+.newsletter_input::-webkit-input-placeholder {
+  display: block;
+  font-size: 13px;
+  color: var(--gray-text);
+  text-transform: capitalize;
+}
+
+.newsletter_input::-moz-placeholder {
+  display: block;
+  font-size: 13px;
+  color: var(--gray-text);
+  text-transform: capitalize;
+}
+
+.newsletter_input:-ms-input-placeholder {
+  display: block;
+  font-size: 13px;
+  color: var(--gray-text);
+  text-transform: capitalize;
 }
 
 .newsletter_input::placeholder {

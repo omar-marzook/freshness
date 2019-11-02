@@ -12,6 +12,21 @@
   padding-left: 9px;
 }
 
+.search_input::-webkit-input-placeholder {
+  color: var(--theme-color);
+  text-transform: capitalize;
+}
+
+.search_input::-moz-placeholder {
+  color: var(--theme-color);
+  text-transform: capitalize;
+}
+
+.search_input:-ms-input-placeholder {
+  color: var(--theme-color);
+  text-transform: capitalize;
+}
+
 .search_input::placeholder {
   color: var(--theme-color);
   text-transform: capitalize;

@@ -45,12 +45,14 @@
   background: var(--primary-color);
   border-radius: 50%;
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .slick-dots li.slick-active button:before {
   border: 3px solid var(--primary-color);
   background: var(--theme-color);
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 @media only screen and (max-width: 730px) {
