@@ -26,10 +26,9 @@
   font-size: 12px;
 }
 
-@media only screen and (max-width: 640px) {
-
+@media only screen and (max-width: 339px) {
   .services_card-text {
+    display: inline-block;
     width: 185px;
-
   }
 }

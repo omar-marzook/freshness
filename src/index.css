@@ -170,12 +170,22 @@ p {
 }
 
 @media only screen and (max-width: 640px) {
-  .intro_section {
+
+  .intro_section,
+  .services_section {
     justify-content: center;
   }
 
+  .intro_section {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 339px) {
+
+  .card,
   .services_card {
     width: 280px;
-    margin-bottom: 40px;
   }
 }

@@ -12,3 +12,10 @@
 .card_p {
   margin: 25px 0 15px;
 }
+
+@media only screen and (max-width: 339px) {
+  .card_img {
+    width: 280px;
+    height: auto;
+  }
+}
