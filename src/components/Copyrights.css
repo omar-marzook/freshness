@@ -1,0 +1,15 @@
+.copyrights_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.copyrights_content h5 {
+  text-transform: capitalize;
+}
+
+.copyrights_content h5,
+.copyrights_content h6 {
+  color: var(--gray-text);
+  font-size: 12px;
+}

@@ -179,3 +179,25 @@ p {
 }
 
 /***** End Services *****/
+
+/***** Footer *****/
+.footer {
+  background: var(--footer-bg);
+  padding: 40px 0;
+}
+
+.footer .container {
+  padding: 0 20px;
+}
+
+.copyrights {
+  background: var(--bottom-footer-bg);
+  padding: 23px 0;
+
+}
+
+.copyrights .container {
+  padding: 0 20px;
+}
+
+/***** End Footer *****/

@@ -6,6 +6,8 @@ import Menu from "./components/Menu.js";
 import HeroSlider from "./components/HeroSlider.js";
 import IntroCard from "./components/IntroCard.js";
 import ServicesCard from "./components/ServicesCard.js";
+import Footer from "./components/Footer.js";
+import Copyrights from "./components/Copyrights.js";
 
 function App() {
   return (
@@ -48,6 +50,18 @@ function App() {
         <ServicesCard />
         <ServicesCard />
       </section>
+
+      <footer className="footer">
+        <div className="container">
+          <Footer />
+        </div>
+      </footer>
+
+      <footer className="copyrights">
+        <div className="container">
+          <Copyrights />
+        </div>
+      </footer>
     </main>
   );
 }
